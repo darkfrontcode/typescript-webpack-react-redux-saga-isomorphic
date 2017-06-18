@@ -1,10 +1,10 @@
 import { Application } 		from 'express'
 import { Request as req } 	from 'express'
 import { Response as res } 	from 'express'
-
-import path 				= require('path')
-import chalk 				= require('chalk')
-import express 				= require('express')
+import * as path 			from 'path'
+import * as chalk 			from 'chalk'
+import * as express 		from 'express'
+import * as react 			from 'react'
 
 
 /* ==========================================================================
@@ -33,8 +33,8 @@ app.use(express.static(path.join(__dirname, '../../public')))
 	-- Routes
 ========================================================================== */
 
-const react_app = require('../react/index.tsx')
-app.get('/', (req:req, res:res) => res.render('index', { react_app }))
+
+app.get('/', (req:req, res:res) => res.render('index'))
 
 
 /* ==========================================================================
