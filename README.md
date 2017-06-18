@@ -1,1 +1,1 @@
-# typescript-webpack-react-redux-saga-isomorphic
+# [ IN PROGRESS ] typescript-webpack-react-redux-saga-isomorphic

@@ -33,8 +33,8 @@ app.use(express.static(path.join(__dirname, '../../public')))
 	-- Routes
 ========================================================================== */
 
-
-app.get('/', (req:req, res:res) => res.render('index'))
+const react_app = require('../react/index.tsx')
+app.get('/', (req:req, res:res) => res.render('index', { react_app }))
 
 
 /* ==========================================================================

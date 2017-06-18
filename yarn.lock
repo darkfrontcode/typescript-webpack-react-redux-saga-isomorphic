@@ -37,6 +37,13 @@
   dependencies:
     "@types/react" "*"
 
+"@types/react-redux@^4.4.43":
+  version "4.4.43"
+  resolved "https://registry.yarnpkg.com/@types/react-redux/-/react-redux-4.4.43.tgz#f17d1b59b7899ada072c1c18ac5641245ad3aabd"
+  dependencies:
+    "@types/react" "*"
+    redux "^3.6.0"
+
 "@types/react-router@^4.0.11":
   version "4.0.11"
   resolved "https://registry.yarnpkg.com/@types/react-router/-/react-router-4.0.11.tgz#de631d00477081c24a4668c10287ea5f3cd51311"
@@ -47,6 +54,24 @@
 "@types/react@*", "@types/react@^15.0.29":
   version "15.0.29"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-15.0.29.tgz#a10831b9d025bcef6cab7bc1c6547bdddbabc938"
+
+"@types/redux-logger@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@types/redux-logger/-/redux-logger-3.0.0.tgz#abe464fe812d03c3580ec56e6b5b375861439fca"
+  dependencies:
+    redux "^3.6.0"
+
+"@types/redux-promise-middleware@^0.0.6":
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/@types/redux-promise-middleware/-/redux-promise-middleware-0.0.6.tgz#4df2eae26dd093966c4f8f1f281961be19c73380"
+  dependencies:
+    redux "^3.6.0"
+
+"@types/redux-thunk@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@types/redux-thunk/-/redux-thunk-2.1.0.tgz#bc2b6e972961831afb82a9bf4f06726e351f9416"
+  dependencies:
+    redux-thunk "*"
 
 "@types/serve-static@*":
   version "1.7.31"
@@ -1631,11 +1656,11 @@ redux-promise-middleware@^4.3.0:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/redux-promise-middleware/-/redux-promise-middleware-4.3.0.tgz#38997574b6f150ab8ff1aa72ca5563fbc82c7cef"
 
-redux-thunk@^2.2.0:
+redux-thunk@*, redux-thunk@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/redux-thunk/-/redux-thunk-2.2.0.tgz#e615a16e16b47a19a515766133d1e3e99b7852e5"
 
-redux@^3.7.0:
+redux@^3.6.0, redux@^3.7.0:
   version "3.7.0"
   resolved "https://registry.yarnpkg.com/redux/-/redux-3.7.0.tgz#07a623cafd92eee8abe309d13d16538f6707926f"
   dependencies:

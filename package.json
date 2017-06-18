@@ -1,11 +1,11 @@
 {
-	"name": "react-with-typescript",
+	"name": "typescript_webpack_react_redux_saga_isomorphic",
 	"version": "1.0.0",
 	"main": "index.js",
 	"devDependencies": {},
 	"scripts": {
-		"start": "npm run dev",
-		"dev": "nodemon --exec ts-node --cache-directory .tscache ./source/express/dev.ts --colors",
+		"start": "nodemon --exec npm run dev",
+		"dev": "ts-node --cache-directory .tscache ./source/express/dev.ts --colors",
 		"prod": "ts-node --fast ./source/express/prod.ts",
 		"test": "ts-node --cache-directory .tscache ./source/express/dev.ts --colors"
 	},
@@ -15,7 +15,11 @@
 		"@types/node": "^7.0.31",
 		"@types/react": "^15.0.29",
 		"@types/react-dom": "^15.5.0",
+		"@types/react-redux": "^4.4.43",
 		"@types/react-router": "^4.0.11",
+		"@types/redux-logger": "^3.0.0",
+		"@types/redux-promise-middleware": "^0.0.6",
+		"@types/redux-thunk": "^2.1.0",
 		"axios": "^0.16.2",
 		"chalk": "^1.1.3",
 		"express": "^4.15.3",
