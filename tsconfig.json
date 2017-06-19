@@ -8,7 +8,7 @@
         "noUnusedLocals": true,
         "pretty": true,
         "removeComments": true,
-        "sourceMap": false,
+        "sourceMap": true,
         "suppressImplicitAnyIndexErrors": true,
         "jsx": "react"
     }

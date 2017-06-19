@@ -33,7 +33,7 @@ export default class App extends React.Component<any, any>
 			return <button onClick={this.fetchFriends.bind(this)}>Load Friends</button>
 		}
 
-		const friendList = friends.map(friend => <li>{friend.name}</li>)
+		const friendList = friends.map((friend:any) => <li>{friend.name}</li>)
 
 		return 	<div className="app">
 					<h1>{user.name}</h1>

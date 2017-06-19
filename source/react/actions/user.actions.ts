@@ -9,7 +9,7 @@ export function fetchUser()
 	}
 }
 
-export function setUserName(name)
+export function setUserName(name:any)
 {
 	return{
 		type: "SET_USER_NAME",
@@ -17,7 +17,7 @@ export function setUserName(name)
 	}
 }
 
-export function setUserAge(age)
+export function setUserAge(age:any)
 {
 	return{
 		type: "SET_USER_AGE",

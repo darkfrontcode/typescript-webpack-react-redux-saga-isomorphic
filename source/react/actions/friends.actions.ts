@@ -2,15 +2,13 @@ import * as axios from 'axios'
 
 export function fetchFriends()
 {
-	const link = null
-
-	return function(dispatch)
+	return function(dispatch:any)
 	{
-		axios.get(link)
-			.then(response => {
+		axios.get('/user')
+			.then((response:any) => {
 				dispatch({type: 'FETCH_FRIENDS_FULFILLED', payload: response.data})
 			})
-			.catch(err => {
+			.catch((err:any) => {
 				dispatch({type: 'FETCH_FRIENDS_REJECTED', payload: err})
 			})
 	}

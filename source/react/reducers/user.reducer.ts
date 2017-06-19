@@ -9,7 +9,7 @@ const initState = new Object({
 	error: null
 })
 
-export default function(state=initState, action)
+export default function(state=initState, action:any)
 {
 	switch(action.type)
 	{
